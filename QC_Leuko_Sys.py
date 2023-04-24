@@ -207,6 +207,7 @@ with tab1:
 with tab2:
     st.title("Status")
     # Anzeige der entsprechenden Stati zu den jeweiligen Parametern
+    st.dataframe(df1)
 
 ### Input Tab
 with tab3:
