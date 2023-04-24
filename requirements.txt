@@ -1,2 +1,2 @@
-matplotlib==3.4.2
-graphviz==2.47.1
+matplotlib==3.7.1
+graphviz==8.0.3
