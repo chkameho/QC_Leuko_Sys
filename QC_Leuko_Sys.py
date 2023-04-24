@@ -9,13 +9,6 @@ from jsonbin import load_data_jsonbin, save_data_jsonbin
 ### Definition der verwendeten Dateien (JSON-Dateien)
 
 
-
-# Parameter (eingegeben)
-DATA_FILE = 'Projekt1_streamlit_start_ORIGINAL.json'
-
-# Referenzwerte der Parameter gemäss Hersteller
-DATA_FILE_REF_PARA = 'Referenzwerte_Hersteller.json'
-
 jsonbin_secrets_1 = st.secrets["jsonbin_1"]
 jsonbin_secrets_2 = st.secrets["jsonbin_2"]
 # Funktion zum Laden des Datensatzes der eingegebenen Parameter aus einer JSON-Datei
