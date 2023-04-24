@@ -208,28 +208,28 @@ with tab2:
     st.title("Status")
     # Anzeige der entsprechenden Stati zu den jeweiligen Parametern
     
-    st.subheader("Leukozyten (Sysmex)",df1)
-    df_sortiert_nach_Status=df_nach_Parameter_aussortiert_fuer_Status('Leukozyten (Sysmex)')
+    st.subheader("Leukozyten (Sysmex)")
+    df_sortiert_nach_Status=df_nach_Parameter_aussortiert_fuer_Status('Leukozyten (Sysmex)',df1)
     Beurteilung_Status(df_sortiert_nach_Status,"Datum/Zeit","s-Bereich")
     
-    st.subheader("Neutrophile (Sysmex)",df1)
-    df_sortiert_nach_Status=df_nach_Parameter_aussortiert_fuer_Status('Neutrophile (Sysmex)')
+    st.subheader("Neutrophile (Sysmex)")
+    df_sortiert_nach_Status=df_nach_Parameter_aussortiert_fuer_Status('Neutrophile (Sysmex)',df1)
     Beurteilung_Status(df_sortiert_nach_Status,"Datum/Zeit","s-Bereich")
     
-    st.subheader("Lymphozyten (Sysmex)",df1)
-    df_sortiert_nach_Status=df_nach_Parameter_aussortiert_fuer_Status('Lymphozyten (Sysmex)')
+    st.subheader("Lymphozyten (Sysmex)")
+    df_sortiert_nach_Status=df_nach_Parameter_aussortiert_fuer_Status('Lymphozyten (Sysmex)',df1)
     Beurteilung_Status(df_sortiert_nach_Status,"Datum/Zeit","s-Bereich")
     
-    st.subheader("Monozyten (Sysmex)",df1)
-    df_sortiert_nach_Status=df_nach_Parameter_aussortiert_fuer_Status('Monozyten (Sysmex)')
+    st.subheader("Monozyten (Sysmex)")
+    df_sortiert_nach_Status=df_nach_Parameter_aussortiert_fuer_Status('Monozyten (Sysmex)',df1)
     Beurteilung_Status(df_sortiert_nach_Status,"Datum/Zeit","s-Bereich")
     
     st.subheader("Eosinophile (Sysmex)",df1)
-    df_sortiert_nach_Status=df_nach_Parameter_aussortiert_fuer_Status('Eosinophile (Sysmex)')
+    df_sortiert_nach_Status=df_nach_Parameter_aussortiert_fuer_Status('Eosinophile (Sysmex)',df1)
     Beurteilung_Status(df_sortiert_nach_Status,"Datum/Zeit","s-Bereich")
     
-    st.subheader("Basophile (Sysmex)",df1)
-    df_sortiert_nach_Status=df_nach_Parameter_aussortiert_fuer_Status('Basophile (Sysmex)')
+    st.subheader("Basophile (Sysmex)")
+    df_sortiert_nach_Status=df_nach_Parameter_aussortiert_fuer_Status('Basophile (Sysmex)',df1)
     Beurteilung_Status(df_sortiert_nach_Status,"Datum/Zeit","s-Bereich")
     
     
