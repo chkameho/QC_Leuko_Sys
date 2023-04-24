@@ -15,8 +15,8 @@ jsonbin_secrets_2 = st.secrets["jsonbin_2"]
 def load_data():
     return load_data_jsonbin(jsonbin_secrets_1["api_key"], jsonbin_secrets_1["bin_id"])
 
-def load_data():
-    return load_data_jsonbin(jsonbin_secrets_1["api_key"], jsonbin_secrets_1["bin_id"])
+def save_data():
+    return save_data_jsonbin(jsonbin_secrets_1["api_key"], jsonbin_secrets_1["bin_id"])
 
 def load_data_ref_para():
     return load_data_jsonbin(jsonbin_secrets_2["api_key"], jsonbin_secrets_2["bin_id"])
