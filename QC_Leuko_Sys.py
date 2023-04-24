@@ -205,7 +205,6 @@ with tab1:
 with tab2:
     st.title("Status")
     # Anzeige der entsprechenden Stati zu den jeweiligen Parametern
-    st.dataframe(df1)# Anzeige der entsprechenden Stati zu den jeweiligen Parametern
     
     st.subheader("Leukozyten (Sysmex)")
     df_sortiert_nach_Status=df_nach_Parameter_aussortiert_fuer_Status('Leukozyten (Sysmex)')
