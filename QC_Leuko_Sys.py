@@ -5,7 +5,7 @@ import datetime
 import matplotlib.pyplot as plt
 import numpy as np 
 import graphviz
-from jsonbin import load_data_jsonbin, save_data_jsonbin
+from jsonbin.py import load_data_jsonbin, save_data_jsonbin
 ### Definition der verwendeten Dateien (JSON-Dateien)
 
 
