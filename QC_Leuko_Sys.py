@@ -205,6 +205,7 @@ with tab1:
 
 ### Status Tab
 with tab2:
+    df1=pd.DataFrame(json1)
     st.title("Status")
     # Anzeige der entsprechenden Stati zu den jeweiligen Parametern
     
