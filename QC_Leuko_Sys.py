@@ -361,7 +361,7 @@ with tab6:
     with st.expander("Verlauf der letzten 10 Werte"):
         st.header("Verlauf der letzten 10 Werte")
         st.write("Für die Beurteilung der Qualitätskontrolle, können Sie hier die einzelnen Parmeter anwählen und somit kontrollieren. Die letzten 10 Werte sind in Form einer Tabelle und einer Levey-Jennings-Kurve ersichtlich.")
-        st.image("https://scontent-zrh1-1.xx.fbcdn.net/v/t39.30808-6/340783719_963336444835418_4174430397612721810_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=3pP_VpZG-akAX8v9P3q&_nc_ht=scontent-zrh1-1.xx&oh=00_AfC8ma9lLG9MWWWhghZqxzYikAmos74eLo_QirIXQcCKJg&oe=643C24E7")
+        st.image("https://scontent-zrh1-1.xx.fbcdn.net/v/t39.30808-6/340783719_963336444835418_4174430397612721810_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=B5hQaor7P9IAX_eent2&_nc_ht=scontent-zrh1-1.xx&oh=00_AfDmiYECj3dkXwkZrLTFQTUQW_5zsCDFBsC27g3_gmkMdA&oe=644DF127")
         st.caption("Bildqulle: Eigene Aufnahme")
         st.write("Unterhalb der Levey-Jennings-Kurve wird mittels einer Meldung nach der Westgard-Regel beurteilt und dies farbig dargestellt.")
         st.markdown("Falls die Regel: :red[2-2s Regel], :red[1-3s Regel] und :red[R4s Regel] verletzt werden, können Sie mit folgendem Flussdiagramm arbeiten.")
